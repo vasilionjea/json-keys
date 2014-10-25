@@ -1,5 +1,5 @@
 /*
- * Object Oriented example.
+ * JSONKeys:
  * Retrives all keys from an object of unknown size using recursion.
  */
 var JSONKeys = (function() {
