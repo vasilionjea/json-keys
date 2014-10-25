@@ -5,16 +5,13 @@ A utility helper for getting **all the keys** recursively from an object that ha
 
 
 
-#### Load the helper
+#### 1. Load the helper & sample data
 
     <script src="json-keys.js"></script>
-
-
-#### Load the sample data
     <script src="sample-data.js"></script>
 
 
-#### Create a new instance passing in the object hierarchy.
+#### 2. Create a new instance passing in the object hierarchy.
 
 `data` is a predefined object hierarchy.
 
