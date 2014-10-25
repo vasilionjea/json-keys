@@ -18,6 +18,6 @@ A utility helper for getting **all the keys** recursively from an object that ha
     var jsonKeys = new JSONKeys(data);
     allKeys = jsonKeys.getAll();
 
-**Returns all the known keys of this data hierarchy**:
+Returns all the known keys of this data hierarchy:
 
     ["continents", "europe", "countries", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "north-america", "countries", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb"]
