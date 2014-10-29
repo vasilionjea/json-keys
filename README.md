@@ -7,17 +7,24 @@ A utility helper for getting **all the keys** recursively from an object that ha
 
 #### 1. Load the helper & sample data
 
-    <script src="json-keys.js"></script>
-    <script src="sample-data.js"></script>
+```html
+<script src="json-keys.js"></script>
+<script src="sample-data.js"></script>
+```
 
 
 #### 2. Create a new instance passing in the object hierarchy
 
 `data` is a predefined object hierarchy.
 
-    var jsonKeys = new JSONKeys(data);
-    allKeys = jsonKeys.getAll();
+```javascript
+var jsonKeys = new JSONKeys(data);
+allKeys = jsonKeys.getAll();
+```
 
 Returns all the known keys of this data hierarchy:
 
-    ["continents", "europe", "countries", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "north-america", "countries", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb"]
+```javascript
+["continents", "europe", "countries", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "north-america", "countries", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb", "country-name", "cities", "city-name", "title", "population", "gdb", "city-name", "title", "population", "gdb"]
+```
+
